@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const articleApi = axios.create({
-    baseURL: 'https://https://consesionario.vercel.app/order/'
+    baseURL: 'https://consesionario.vercel.app/order/'
 });
 
 export const getCotiz = () => {

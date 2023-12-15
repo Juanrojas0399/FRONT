@@ -1,6 +1,6 @@
 FROM node:alpine
 
-WORKDIR /app
+WORKDIR Client/app
 COPY . .
 
 RUN npm config set legacy-peer-deps true
